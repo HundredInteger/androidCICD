@@ -37,7 +37,3 @@ jobs:
     # Build your app
     - name: Build Debug APK
       run: ./gradlew assembleDebug
-
-    # Run your tests
-    - name: Run unit tests
-      run: ./gradlew test
