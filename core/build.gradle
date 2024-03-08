@@ -4,6 +4,10 @@ plugins {
 
 apply from: "../base-build.gradle"
 
+android {
+    namespace 'io.android_cicd.core'
+}
+
 dependencies {
     implementation(project(path: ':logger'))
 }

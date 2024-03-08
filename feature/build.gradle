@@ -4,6 +4,10 @@ plugins {
 
 apply from: "../base-build.gradle"
 
+android {
+    namespace 'io.android_cicd.feature'
+}
+
 dependencies {
     implementation(project(path: ':core'))
     implementation(project(path: ':shared'))

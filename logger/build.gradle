@@ -2,4 +2,8 @@ plugins {
     id 'com.android.library'
 }
 
+android {
+    namespace 'io.android_cicd.logger'
+}
+
 apply from: "../base-build.gradle"

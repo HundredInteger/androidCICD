@@ -6,6 +6,7 @@ plugins {
 apply from: "../base-build.gradle"
 
 android {
+    namespace 'io.android_cicd.app'
     defaultConfig{
         applicationId "io.android_cicd"
     }
