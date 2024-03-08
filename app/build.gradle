@@ -2,7 +2,14 @@ plugins {
     id 'com.android.application'
 }
 
+
 apply from: "../base-build.gradle"
+
+android {
+    defaultConfig{
+        applicationId "io.android_cicd"
+    }
+}
 
 dependencies {
     implementation(project(path: ':feature'))
